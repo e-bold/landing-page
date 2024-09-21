@@ -55,8 +55,9 @@ a {
 .banner {
     display: flex;
     padding: 100px 0px;
-    gap: 50px;
-    justify-content: space-between;
+    gap: 100px;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -79,6 +80,7 @@ button {
     border-radius: 10px;
     border-color: white;
 }
+
 .banner-text {
     width: 500px;;
 }
@@ -115,13 +117,13 @@ button {
     padding-bottom: 40px;
     gap: 50px;
     justify-content: center;
-    align-items: center;
+    align-items: top;
 }
 
 .card-image {
     width: 200px;
     height: 200px;
-    border: 3px solid #3882f6;
+    border: 3px solid #000000;
     border-radius: 15px;
 }
 
@@ -144,12 +146,16 @@ button {
     background-color: #e5e7eb;
     padding: 100px 160px;
     flex-direction: column;
+    align-items: center;
+
 }
 
 .quote {
+    max-width: 1200px;
     font-size: 36px;
     font-style: italic;
     color: #1f2937;
+    text-align: start;
 }
 
 
@@ -162,6 +168,47 @@ button {
 }
 
 
+/*Action Container */
+
+.action-container {
+    display: flex;
+    padding: 50px;
+    justify-content: center;
+    color: white;
+}
+
+.action-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882f6;
+    padding: 50px 100px;
+    border-radius: 15px;
+}
+
+.action-title {
+    font-size: 25px;
+}
+
+.action-left {
+    flex-basis: 70%;
+}
+
+
+
+
+
+
+/*Footer*/
+
+.footer{
+    background-color: #1F2937;
+}
+
+.footer.text {
+    color: white;
+    font-size: 12px;
+}
 
 
 
